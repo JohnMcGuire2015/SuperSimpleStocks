@@ -15,9 +15,6 @@ public class SSSprefered extends SSS {
 	}
 
 	public float dividendYield() {
-System.out.println(fixedDividend);
-System.out.println(parValue);
-System.out.println(tickerPrice);
 
 		return ((float) fixedDividend/100 * (float) parValue / (float) tickerPrice);
 	}
